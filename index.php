@@ -7,12 +7,16 @@
   <title>QuoteMaster</title>
 
   <style>
+    body {
+      padding:0;
+      margin:0;
+    }
     .intro {
       background-image:url('images/landing.jpg');
       background-position: top fixed;
       background-attachment: fixed;
       background-size: cover;
-      height:600px;
+      height:1000px;
     }
 
   </style>
@@ -24,7 +28,7 @@
   </header>
 
   <section class="intro">
-    
+
   </section>
 
   <aside class="main-aside">
