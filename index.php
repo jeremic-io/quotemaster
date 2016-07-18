@@ -18,6 +18,10 @@
       background-size: cover;
       height:1000px;
     }
+    .overlay {
+      background-color: rgba(0,0,0,0.8);
+      height:1000px;
+    }
 
   </style>
 </head>
@@ -28,7 +32,9 @@
   </header>
 
   <section class="intro">
-
+    <div class="overlay">
+      <h1>Welcome</h1>
+    </div>
   </section>
 
   <aside class="main-aside">
