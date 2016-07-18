@@ -33,7 +33,7 @@
 
     .intro-text h1 {
       color: #fff;
-      font-size:2em;
+      font-size:2.5em;
       padding-bottom:10px;
       border-bottom: 3px solid #19A8D0;
       text-align:center;
