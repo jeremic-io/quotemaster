@@ -12,9 +12,5 @@
   ExpiresByType application/x-shockwave-flash "access 1 month"
   ExpiresByType image/x-icon "access 1 year"
   ExpiresDefault "access 1 month"
-
-  <FilesMatch ".(js|css|xml|gz|html)$">
-    Header append Vary: Accept-Encoding
-  </FilesMatch>
 </IfModule>
 ## EXPIRES CACHING ##
