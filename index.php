@@ -11,29 +11,37 @@
       padding:0;
       margin:0;
     }
+    h1,h2,h3,h4,h5,h6 {
+      padding:0;
+      margin:0;
+    }
     .intro {
-      background-image:url('images/landing.jpg');
+      background-image:url('images/landing.png');
       background-position: top fixed;
       background-attachment: fixed;
       background-size: cover;
-      height:1000px;
+      min-height:100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    .overlay {
-      background-color: rgba(0,0,0,0.8);
-      height:1000px;
+
+    .intro-text {
+
+    }
+
+    .intro-text h1 {
+      color: #fff;
+      font-size:3em;
     }
 
   </style>
 </head>
 <body>
-
-  <header class="main-header">
-    <h1>QuoteMaster</h1>
-  </header>
-
+  <!-- Intro -->
   <section class="intro">
-    <div class="overlay">
-      <h1>Welcome</h1>
+    <div class="intro-text">
+      <h1>Welcome to my website</h1>
     </div>
   </section>
 
