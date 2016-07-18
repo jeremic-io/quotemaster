@@ -8,5 +8,10 @@
 </head>
 <body>
   <h1>QuoteMaster</h1>
+
+
+
+  <!-- Javascript -->
+  <script src="js/scripts.js"></script>
 </body>
 </html>
