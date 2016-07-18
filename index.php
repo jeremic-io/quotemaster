@@ -7,6 +7,6 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>QuoteMaster</h1>
+  <h1 style="color:green;">QuoteMaster</h1>
 </body>
 </html>
