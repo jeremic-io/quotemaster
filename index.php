@@ -15,24 +15,32 @@
       padding:0;
       margin:0;
     }
+
     .intro {
-      background-image:url('images/landing.png');
+      background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('images/landing.jpg');
       background-position: top fixed;
       background-attachment: fixed;
       background-size: cover;
-      min-height:100vh;
       display: flex;
       justify-content: center;
       align-items: center;
+      min-height: 100vh;
     }
 
     .intro-text {
-
+      width:40%;
     }
 
     .intro-text h1 {
       color: #fff;
-      font-size:3em;
+      font-size:2em;
+      padding-bottom:6px;
+      border-bottom: 3px solid #19A8D0;
+      text-align:center;
+    }
+
+    .intro-text p {
+      color:#fff;
     }
 
   </style>
@@ -42,6 +50,9 @@
   <section class="intro">
     <div class="intro-text">
       <h1>Welcome to my website</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
     </div>
   </section>
 
