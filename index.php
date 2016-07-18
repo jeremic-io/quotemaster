@@ -72,7 +72,8 @@
       background:transparent;
       color:#fff;
       font-size:1.1em;
-      margin-top:50px;
+      margin-top:40px;
+      width:50%;
     }
 
     .call-to-action:hover {
