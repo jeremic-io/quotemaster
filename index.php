@@ -42,6 +42,7 @@
     .intro-text p {
       color:#fff;
       text-align: justify;
+      margin-top: 25px;
     }
 
     @media screen and (max-width: 1999px) {
@@ -72,7 +73,7 @@
       background:transparent;
       color:#fff;
       font-size:1.1em;
-      margin-top:40px;
+      margin-top:30px;
       width:50%;
     }
 
