@@ -34,13 +34,49 @@
     .intro-text h1 {
       color: #fff;
       font-size:2em;
-      padding-bottom:6px;
+      padding-bottom:10px;
       border-bottom: 3px solid #19A8D0;
       text-align:center;
     }
 
     .intro-text p {
       color:#fff;
+      text-align: justify;
+    }
+
+    @media screen and (max-width: 1999px) {
+      .intro-text {
+        width:50%;
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+      .intro-text {
+        width:60%;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .intro-text {
+        width:80%;
+      }
+    }
+
+    .text-center {
+      text-align:center;
+    }
+
+    .call-to-action {
+      border:1px solid #19A8D0;
+      padding:15px;
+      background:transparent;
+      color:#fff;
+      font-size:1.1em;
+      margin-top:50px;
+    }
+
+    .call-to-action:hover {
+      background: #19A8D0;
     }
 
   </style>
@@ -53,6 +89,9 @@
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
+      <div class="text-center">
+        <button class="call-to-action "type="button" name="button">Call To Action</button>
+      </div>
     </div>
   </section>
 
