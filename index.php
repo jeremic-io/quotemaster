@@ -10,6 +10,7 @@
     body {
       padding:0;
       margin:0;
+      font-family: "Open Sans", sans-serif;
     }
     h1,h2,h3,h4,h5,h6 {
       padding:0;
@@ -75,11 +76,13 @@
       width:50%;
       display:block;
       margin:40px auto 40px auto;
+      text-align:center;
     }
 
     .call-to-action:hover {
       background: #fff;
       color: #000;
+      cursor: pointer;
     }
 
     .white-hr {
@@ -99,9 +102,7 @@
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-      <div class="text-center">
-        <a class="call-to-action">Call To Action</a>
-      </div>
+      <a class="call-to-action">Call To Action</a>
     </div>
   </section>
 
@@ -119,15 +120,14 @@
 
   <!-- Javascript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
   <!-- defer loading of javascript files -->
   <script>
-
     function downloadJSAtOnload() {
       var element = document.createElement("script");
       element.src = "js/scripts.js";
       document.body.appendChild(element);
     }
-
     if (window.addEventListener) {
       window.addEventListener("load", downloadJSAtOnload, false);
     } else if (window.attachEvent) {
@@ -135,7 +135,14 @@
     } else {
       window.onload = downloadJSAtOnload;
     }
-
+  </script>
+  <!-- defer loding of fonts -->
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Open Sans', 'Roboto', 'Arvo']
+      }
+    });
   </script>
 </body>
 </html>
