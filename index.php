@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="description" content="Best quotes from famous people...">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <title>QuoteMaster</title>
 
   <style>
     body {
       padding:0;
       margin:0;
-      font-family: "Open Sans", sans-serif;
     }
     h1,h2,h3,h4,h5,h6 {
       padding:0;
@@ -33,6 +33,7 @@
     }
 
     .intro-text h1 {
+      font-family: "Open Sans";
       color: #fff;
       font-size:2.5em;
       padding-bottom:10px;
@@ -40,6 +41,7 @@
     }
 
     .intro-text p {
+      font-family: "Open Sans";
       color:#fff;
       text-align: justify;
       margin-top: 25px;
@@ -120,7 +122,6 @@
 
   <!-- Javascript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
   <!-- defer loading of javascript files -->
   <script>
     function downloadJSAtOnload() {
@@ -135,14 +136,6 @@
     } else {
       window.onload = downloadJSAtOnload;
     }
-  </script>
-  <!-- defer loding of fonts -->
-  <script>
-    WebFont.load({
-      google: {
-        families: ['Open Sans', 'Roboto', 'Arvo']
-      }
-    });
   </script>
 </body>
 </html>
