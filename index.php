@@ -35,7 +35,6 @@
       color: #fff;
       font-size:2.5em;
       padding-bottom:10px;
-      border-bottom: 3px solid #19A8D0;
       text-align:center;
     }
 
@@ -68,17 +67,25 @@
     }
 
     .call-to-action {
-      border:1px solid #19A8D0;
+      border:1px solid #fff;
       padding:15px;
       background:transparent;
       color:#fff;
-      font-size:1.1em;
-      margin-top:30px;
+      font-size:1em;
       width:50%;
+      display:block;
+      margin:40px auto 40px auto;
     }
 
     .call-to-action:hover {
-      background: #19A8D0;
+      background: #fff;
+      color: #000;
+    }
+
+    .white-hr {
+      background-color:#fff;
+      height:1px;
+      width:200px;
     }
 
   </style>
@@ -87,12 +94,13 @@
   <!-- Intro -->
   <section class="intro">
     <div class="intro-text">
-      <h1>Welcome to my website</h1>
+      <h1>Dobrodošli na Religija.net</h1>
+      <hr class="white-hr">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
       <div class="text-center">
-        <button class="call-to-action "type="button" name="button">Call To Action</button>
+        <a class="call-to-action">Call To Action</a>
       </div>
     </div>
   </section>
